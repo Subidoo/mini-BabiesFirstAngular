@@ -50,7 +50,7 @@ Again note that I didn't include the extra [] as the second argument because I d
 ```javascript
 app.controller('mainCtrl', function($scope){
 
-});
+3
 ```
 A few things to notice here. We added a controller property to our app, we named it 'mainCtrl' because that was the name we chose in ng-controller in our index.html file, and the second argument is a callback function that has a $scope property built into it. Note that every time you create a new controller, you get this $scope object. Whatever we stick on $scope will be available in our view (in this case, index.html is our view). For example, in my controller if I said:
 
